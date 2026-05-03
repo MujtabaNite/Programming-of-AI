@@ -1,0 +1,1 @@
+print(f"max number: {max([int(input("enter a number:"))  for i in range(5)])}")

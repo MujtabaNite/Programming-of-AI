@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Datasets (Excluding large files > 100MB for GitHub)
+Datasets/creditcard.csv
+Datasets/data.csv
+
+# Generic large files
+*.csv
+!Datasets/Handling_missing.csv
+!Datasets/MonthlyExpenses.csv
+!Datasets/Student.csv
+!Datasets/depression_dataset.csv
+!Datasets/titanic_toy.csv
+!Datasets/train.csv
+
+# OS files
+.DS_Store
+Thumbs.db
